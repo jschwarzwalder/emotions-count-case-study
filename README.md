@@ -4,6 +4,8 @@
 
 Emotions Count was a classroom web application designed to help teachers better understand student emotional check-ins through a simple, low-friction workflow.
 
+The project was developed in collaboration with an educator stakeholder who identified a need for a lower-friction way to understand student emotional well-being while supporting classroom decision-making.
+
 The goal was to create a system that allowed students to quickly share how they were feeling while giving teachers a clear way to identify patterns, monitor classroom trends, and determine when additional support might be needed.
 
 This project explored the intersection of **user experience design, educational technology, data visualization, and human-centered system design.**
@@ -12,15 +14,16 @@ This project explored the intersection of **user experience design, educational 
 
 ## My Role
 
-**Lead Developer • UX Designer • Product Builder**
+**Lead Developer • UX Researcher • Product Designer**
 
 I was responsible for:
 
-- Translating classroom needs into system requirements
-- Designing user workflows for both students and teachers
+- Translating classroom needs into user workflows
+- Facilitating stakeholder discussions through prototypes
+- Designing student and teacher experiences
 - Building and iterating on the application
-- Gathering feedback from educators
-- Improving usability based on real-world classroom usage
+- Gathering usability feedback
+- Improving workflows based on real-world usage
 
 ---
 
@@ -39,18 +42,78 @@ The challenge was balancing **speed, clarity, privacy, and usability** in a clas
 
 ---
 
-## Research & UX Process
+## Research & Discovery Process
 
-The project was developed through an iterative, user-centered approach.
+The project followed an iterative, user-centered development process.
 
-- Created early prototypes to explore workflow concepts
-- Gathered feedback from educators and classroom stakeholders
-- Observed how users interacted with the system
-- Identified points of confusion and friction
-- Adjusted workflows and interface elements based on real usage patterns
-- Improved dashboard clarity to support faster decision-making
+Rather than beginning with a fixed technical solution, we worked with the educator stakeholder to understand the classroom problem, explore possible workflows, and refine the system based on feedback.
 
-This process reinforced the importance of designing for the environment where a system is actually used, not just how it works technically.
+The process included:
+
+- Translating classroom needs into user workflows and system requirements
+- Creating visual prototypes to explore possible solutions
+- Gathering stakeholder feedback throughout development
+- Observing real-world usage patterns
+- Identifying usability issues and workflow friction
+- Iterating on the interface and system behavior based on user needs
+
+This project reinforced the importance of designing systems around actual user environments rather than only technical requirements.
+
+---
+## Discovery, Prototyping & Stakeholder Alignment
+
+Before development began, I used low-fidelity prototypes to help transform an early concept into a shared vision between the educator stakeholder and development team.
+
+During the first sprint, I created multiple wireframe concepts using Balsamiq to explore different approaches for student emotional check-ins.
+
+The purpose of these prototypes was not to create polished designs, but to create a fast communication tool that allowed us to:
+
+- Explore multiple possible workflows
+- Give the stakeholder concrete examples to react to
+- Identify which interactions felt intuitive for students
+- Discuss what was technically feasible
+- Reduce ambiguity before investing development time
+
+The prototypes helped bridge the gap between an idea described verbally and a system that could be evaluated visually.
+
+Instead of asking the teacher to imagine a future interface, we could discuss specific examples:
+
+"Would this workflow match how students think?"
+"Would this information be useful for a teacher?"
+"Would this interaction create unnecessary steps?"
+
+This collaborative process helped align three perspectives:
+
+- The educator's classroom goals
+- The student's experience using the system
+- The technical constraints of building and maintaining the application
+
+  
+---
+
+## Final System Screenshots
+
+### Student Experience
+
+The final system provided a simple workflow for students to submit emotional check-ins.
+
+![Emotions Count home page](ec.png)
+
+---
+
+### Teacher Dashboard
+
+Teachers could review classroom responses through a dashboard designed to help identify trends and determine when follow-up might be appropriate.
+
+![Teacher dashboard](ec_teacher_report.png)
+
+---
+
+### Individual Student View
+
+Teachers could also review response history for individual students to better understand patterns over time.
+
+![Individual student report](ec_single.png)
 
 ---
 
@@ -58,10 +121,18 @@ This process reinforced the importance of designing for the environment where a 
 
 I designed and developed a full-stack web application using:
 
+### Tools & Technologies
+
+#### Development
 - PHP
 - MySQL
 - Bootstrap
 - jQuery
+
+#### UX & Design
+- Balsamiq wireframing and low-fidelity prototyping ([Balsamiq](https://balsamiq.com/))
+- Stakeholder review sessions
+- Classroom usability feedback
 
 Key system features included:
 
@@ -98,14 +169,64 @@ Key considerations included:
 
 ---
 
+## Prototype Exploration
+
+### Student Emotional Check-In Wireframes
+
+Early Balsamiq prototypes explored different interaction models for student emotional check-ins.
+
+Four possible approaches were created during Sprint 1 to compare how students might communicate their emotional state. These options helped evaluate clarity, simplicity, and classroom usability before implementation.
+
+![Student emotional check-in prototype option 1](ec_prototype_1.png)
+
+![Student emotional check-in prototype option 2](ec_prototype_2.png)
+
+![Student emotional check-in prototype option 3](ec_prototype_3.png)
+
+![Student emotional check-in prototype option 4](ec_prototype_4.png)
+
+---
+
 ## Impact
 
 The project:
 
-- Supported teachers in monitoring classroom emotional trends
+- Supported teachers in monitoring classroom emotional trends through a structured digital workflow
 - Expanded beyond the initial classroom environment
-- Incorporated feedback from multiple educators
-- Demonstrated how iterative UX improvements can increase system usability
+- Incorporated feedback from multiple educators during iterative development
+- Demonstrated how user research and rapid prototyping can improve system usability
+
+---
+
+## Sprint Documentation
+
+Additional Sprint 1 documentation includes early exploration of error handling and continuation workflows.
+
+[View Sprint 1 Error and Continue Options PDF](Sprint%201%20Error%20and%20Continue%20Options.pdf)
+[Sprint 1 visual options for 5 point scale](Initial Ideas `(More 5 point scale options`).pdf)
+
+---
+
+## Presentation & Knowledge Sharing
+
+The Emotions Count project was presented at the **Washington State Applied Baccalaureate Conference** on November 2, 2016, as part of a discussion on the value of real-world student projects.
+
+**Presentation:**
+*Green River College: The Value of Real-World Projects*
+
+Presented by:
+- Jami Schwarzwalder
+
+Although the project was developed collaboratively, I presented the project independently at the conference, sharing the development process, stakeholder collaboration, prototyping approach, and lessons learned from building a real-world educational technology solution.
+
+The presentation focused on how students worked with community partners to translate real-world needs into usable technology solutions. I discussed the importance of stakeholder communication, iterative design, and balancing user needs with technical constraints.
+
+This experience strengthened my ability to communicate technical projects to broader audiences, including educators, stakeholders, and non-technical decision makers.
+
+## Presentation Materials
+
+- [Washington State Applied Baccalaureate Conference (2016)](BAS-flyer-2016 pdf final.pdf)
+- Green River College: The Value of Real-World Projects
 
 ---
 
@@ -153,4 +274,4 @@ Source code is private due to historical repository settings, but this project r
 
 ## Skills Demonstrated
 
-UX Research • Usability Testing • Product Thinking • Exploratory QA • User-Centered Design • Technical Communication • Full-Stack Development • System Design • Agile Iteration
+UX Research • User-Centered Design • Usability Testing • Exploratory QA • Product Thinking • Technical Communication • Stakeholder Communication • Public Presentation • Full-Stack Development • System Design • Agile Iteration
