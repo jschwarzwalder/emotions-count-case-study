@@ -200,10 +200,10 @@ The project:
 
 ## Sprint Documentation
 
-Additional Sprint 1 documentation includes early exploration of error handling and continuation workflows.
+Additional Sprint 1 documentation includes early exploration of student check-in interactions, error handling, and continuation workflows.
 
-[View Sprint 1 Error and Continue Options PDF](Sprint%201%20Error%20and%20Continue%20Options.pdf)
-[Sprint 1 visual options for 5 point scale](Initial Ideas `(More 5 point scale options`).pdf)
+- [Sprint 1: 5 Point Scale Prototype](ec-5-point-scale-prototype.pdf)
+- [Sprint 1: Error and Continuation Options](ec-sprint-1-error-continuation-options.pdf)
 
 ---
 
@@ -225,7 +225,7 @@ This experience strengthened my ability to communicate technical projects to bro
 
 ## Presentation Materials
 
-- [Washington State Applied Baccalaureate Conference (2016)](BAS-flyer-2016 pdf final.pdf)
+- [Washington State Applied Baccalaureate Conference (2016)](washington-state-applied-baccalaureate-conference-2016.pdf)
 - Green River College: The Value of Real-World Projects
 
 ---
