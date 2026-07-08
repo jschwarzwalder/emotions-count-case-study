@@ -262,7 +262,7 @@ https://medium.com/green-river-web-mobile-developers/emotions-count-699aa088f380
 https://web.archive.org/web/20240106115620/https://www.washingtontechnology.org/auburn-teacher-green-river-students-create-web-app-to-measure-kids-emotional-well-being/
 
 - KING 5 News coverage:  
-http://www.king5.com/news/local/teacher-creates-students-well-being-app/
+[http://www.king5.com/news/local/teacher-creates-students-well-being-app/](https://www.king5.com/article/news/local/teacher-creates-app-that-tracks-students-well-being/281-328571244)
 
 ---
 
